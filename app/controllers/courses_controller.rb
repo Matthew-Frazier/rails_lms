@@ -18,6 +18,7 @@ class CoursesController < ApplicationController
       redirect_to course_path(@course)
     else
       render :new
+    end
   end
 
   def destroy
